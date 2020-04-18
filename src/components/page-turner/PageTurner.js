@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { PAGE_ONE, PAGE_TWO, PAGE_THREE, PAGE_FOUR } from '../pages.js';
-import PageOne from './PageOne';
-import PageTwo from './PageTwo';
-import PageThree from './PageThree';
-import PageFour from './PageFour';
+import { PAGE_ONE, PAGE_TWO, PAGE_THREE, PAGE_FOUR } from '../../pages.js';
+import PageOne from '../page-one/PageOne';
+import PageTwo from '../page-two/PageTwo';
+import PageThree from '../page-three/PageThree';
+import PageFour from '../page-four/PageFour';
 
 import './PageTurner.css';
 

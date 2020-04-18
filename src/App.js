@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import { PAGE_ONE, PAGE_TWO, PAGE_THREE, PAGE_FOUR } from './pages.js';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import PageTurner from './components/PageTurner';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import PageTurner from './components/page-turner/PageTurner';
 
 import './App.css';
 

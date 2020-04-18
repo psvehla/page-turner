@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../images/logo.svg';
+import logo from '../../images/logo.svg';
 
-import './PageOne.css';
+import './PageFour.css';
 
-function PageOne(props) {
+function PageFour(props) {
   return (
     <div><img src={logo} alt="logo" onClick={() => props.onClick()} /></div>
   );
 }
 
-export default PageOne;
+export default PageFour;

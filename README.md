@@ -1,3 +1,7 @@
+I found myself needing to create a smoke and mirrors demo from a clickable HiFi web design. The trouble was the demo needed to look like the design, but the most important functional page was at the end of about 8 screens. So I decided to use images of the screens to get me through to the most important screen, which I could then cut up and add real functionality to. The next most important page was about halfway through the journey, so that's the next one to cut up and add real functionality to.
+
+Then I realised that the basis of that, an app the lets you click through a series of images, could be useful again. So I decided to start with something generic and leave it here.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

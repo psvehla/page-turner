@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <p>
+    Current page not recognised!
+  </p>
+  <div>
+    <img
+      alt="bike"
+      onClick={[Function]}
+      src="1.jpg"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="imgbox"
+>
+  <img
+    alt="bike"
+    className="centre-fit"
+    onClick={[Function]}
+    src="4.jpg"
+  />
+</div>
+`;

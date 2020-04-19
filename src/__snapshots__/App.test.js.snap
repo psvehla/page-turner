@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+  </header>
+  <div>
+    <img
+      alt="bike"
+      onClick={[Function]}
+      src="1.jpg"
+    />
+  </div>
+  <footer>
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+  </footer>
+</div>
+`;

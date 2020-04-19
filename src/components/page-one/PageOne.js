@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../../images/logo.svg';
+import bike from '../../images/1.jpg';
 
 import './PageOne.css';
 
 function PageOne(props) {
   return (
-    <div><img src={logo} alt="logo" onClick={() => props.onClick()} /></div>
+    <div><img src={bike} alt="bike" onClick={() => props.onClick()} /></div>
   );
 }
 

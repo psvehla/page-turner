@@ -24,52 +24,31 @@ function PageTurner(props) {
   switch (props.currentPage) {
     case PAGE_ONE:
       return (
-        <div>
-          <p>Current page: {props.currentPage}</p>
-          <PageOne onClick={props.onClick} />
-        </div>
+        <PageOne onClick={props.onClick} />
       );
     case PAGE_TWO:
       return (
-        <div>
-          <p>Current page: {props.currentPage}</p>
-          <PageTwo onClick={props.onClick} />
-        </div>
+        <PageTwo onClick={props.onClick} />
       );
     case PAGE_THREE:
       return (
-        <div>
-          <p>Current page: {props.currentPage}</p>
-          <PageThree onClick={props.onClick} />
-        </div>
+        <PageThree onClick={props.onClick} />
       );
     case PAGE_FOUR:
       return (
-        <div>
-          <p>Current page: {props.currentPage}</p>
-          <PageFour onClick={props.onClick} />
-        </div>
+        <PageFour onClick={props.onClick} />
       );
     case PAGE_FIVE:
       return (
-        <div>
-          <p>Current page: {props.currentPage}</p>
-          <PageFive onClick={props.onClick} />
-        </div>
+        <PageFive onClick={props.onClick} />
       );
     case PAGE_SIX:
       return (
-        <div>
-          <p>Current page: {props.currentPage}</p>
-          <PageSix onClick={props.onClick} />
-        </div>
+        <PageSix onClick={props.onClick} />
       );
     case PAGE_SEVEN:
       return (
-        <div>
-          <p>Current page: {props.currentPage}</p>
-          <PageSeven onClick={props.onClick} />
-        </div>
+        <PageSeven onClick={props.onClick} />
       );
     default:
       return (
